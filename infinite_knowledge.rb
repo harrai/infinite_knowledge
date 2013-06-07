@@ -1,3 +1,6 @@
+#Har Rai Khalsa - First Ruby Program
+#My own concept, using techniques that I picked up from various sections of the Lynda.com 'Ruby Essential Training video'
+
 puts "Welcome. Are you ready to unlock the Universe's Ultimate Treasure?"
 question = ""
 until question == "yes"
@@ -11,9 +14,6 @@ puts "Prove to me that you are ready. What is the meaning of life?"
 question_two = ""
 until question_two == "42"
 	question_two = gets.chomp
-	# if question_two != integer
-	# 	puts "No. Your life might not be meaningless, but the answer is more mathmatical than that. Try again in 7.5 million years."
-	# else puts "You are off by "
 	unless question_two == "42"
 		puts "No, it's not #{question_two}. Use Deep Thought and try again in 7.5 million years."
 	end
@@ -50,3 +50,6 @@ print "OK, finishing locating treasure, please standby"
 
 puts ""
 puts "You stay classy, Portland, Oregon, and thanks for stopping by!"
+
+#Hope you enjoyed this. One of my main goals is to become more efficient and concise with my coding, if you have suggestions for how I can do that with this code, please let me know.
+#Thanks - Har Rai
