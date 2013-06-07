@@ -3,7 +3,7 @@ question = ""
 until question == "yes"
 	question = gets.chomp
 	unless question == "yes"
-		puts "I don't want to rush you. Come back when the answer is 'yes'"
+		puts "#{question}? You sure about that? Come back when the answer is 'yes'"
 	end
 end
 
@@ -15,7 +15,7 @@ until question_two == "42"
 	# 	puts "No. Your life might not be meaningless, but the answer is more mathmatical than that. Try again in 7.5 million years."
 	# else puts "You are off by "
 	unless question_two == "42"
-		puts "No, it's not #{question_two}. Try again in 7.5 million years."
+		puts "No, it's not #{question_two}. Use Deep Thought and try again in 7.5 million years."
 	end
 end
 puts "Your caculations are correct."
@@ -31,15 +31,10 @@ until question_three == "yes"
 	end
 end
 
-x = 0
-loop do
-	break if x >= 3
-	x += 1
-	sleep 1
-	print "."
-end
+3.times {sleep 1; print "."}
 
-puts "treasure partially loaded. Are you completely sure you want to continue? Everything else may seem question_twoless in comparison."
+
+puts "treasure partially loaded. Are you completely sure you want to continue? Everything else may seem meaningless in comparison."
 question_four = ""
 until question_four == "yes"
 	question_four = gets.chomp
@@ -49,14 +44,9 @@ until question_four == "yes"
 end
 
 print "OK, finishing locating treasure, please standby"
-loop do
-	break if x >=6
-	x += 1
-	sleep 1
-	print "."
-end
+3.times {sleep 1; print "."}
 
 `open http://www.lolcats.com/`
 
 puts ""
-puts "Enjoy those furry pussies! You stay classy, Portland, Oregon."
+puts "You stay classy, Portland, Oregon, and thanks for stopping by!"
