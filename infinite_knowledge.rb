@@ -1,7 +1,7 @@
 #created by Har Rai Khalsa June 5, 2013
 #my own concept, but based on various techniques learned in the lynda.com 'ruby essential training'.
-
-puts "Welcome. Are you ready to unlock the Universe's Ultimate Treasure?"
+puts "\n"
+puts "--- Welcome. Are you ready to unlock the Universe's Ultimate Treasure? ---"
 question = ""
 until question == "yes"
 	question = gets.chomp
@@ -10,7 +10,7 @@ until question == "yes"
 	end
 end
 
-puts "Prove to me that you are ready. What is the meaning of life?"
+puts "\nProve to me that you are ready. What is the meaning of life?"
 question_two = ""
 until question_two == "42"
 	question_two = gets.chomp
@@ -18,7 +18,7 @@ until question_two == "42"
 		puts "No, it's not #{question_two}. Use Deep Thought and try again in 7.5 million years."
 	end
 end
-puts "Your caculations are correct."
+puts "\nYour calculations are correct."
 
 sleep 1
 
@@ -31,10 +31,11 @@ until question_three == "yes"
 	end
 end
 
+puts"\n"
 3.times {sleep 1; print "."}
 
 
-puts "treasure partially loaded. Are you completely sure you want to continue? Everything else may seem meaningless in comparison."
+puts "treasure partially loaded. Are you completely sure you want to continue? Everything else may seem meaningless in comparison.\n"
 question_four = ""
 until question_four == "yes"
 	question_four = gets.chomp
@@ -49,7 +50,7 @@ print "OK, finishing locating treasure, please standby"
 `open http://www.lolcats.com/`
 
 puts ""
-puts "You stay classy, Portland, Oregon, and thanks for stopping by!"
+puts "You stay classy...World! And thanks for stopping by!"
 
 #Hope you enjoyed. If you have recommendations on how to make the code more concise, please let me know.
 #2013 - harrai - io@harrai.com
