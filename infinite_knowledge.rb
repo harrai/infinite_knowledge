@@ -1,3 +1,6 @@
+#created by Har Rai Khalsa June 5, 2013
+#my own concept, but based on various techniques learned in the lynda.com 'ruby essential training'.
+
 puts "Welcome. Are you ready to unlock the Universe's Ultimate Treasure?"
 question = ""
 until question == "yes"
@@ -11,9 +14,6 @@ puts "Prove to me that you are ready. What is the meaning of life?"
 question_two = ""
 until question_two == "42"
 	question_two = gets.chomp
-	# if question_two != integer
-	# 	puts "No. Your life might not be meaningless, but the answer is more mathmatical than that. Try again in 7.5 million years."
-	# else puts "You are off by "
 	unless question_two == "42"
 		puts "No, it's not #{question_two}. Use Deep Thought and try again in 7.5 million years."
 	end
@@ -50,3 +50,6 @@ print "OK, finishing locating treasure, please standby"
 
 puts ""
 puts "You stay classy, Portland, Oregon, and thanks for stopping by!"
+
+#Hope you enjoyed. If you have recommendations on how to make the code more concise, please let me know.
+#2013 - harrai - io@harrai.com
